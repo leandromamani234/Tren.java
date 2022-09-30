@@ -21,5 +21,12 @@ public class Main {
         System.out.println(tren509);
         System.out.println(tren666);
 
+        int contador = 0;
+        while (contador < 100000){
+            Tren patito= new Tren(500 + contador);
+            System.out.println(patito);
+            contador=contador + 1;
+        }
+
     }
 }
